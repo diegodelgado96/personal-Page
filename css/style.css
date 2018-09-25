@@ -200,11 +200,29 @@ body
 	overflow: hidden; 
 }
 
+.TituloIzquierda
+{
+	margin: 20px;
+}
+
 .contenedor-data-b p
 {
 	font-family: Arial, Helvetica, sans-serif;
 	color:rgba(0, 0, 0, 0.795);
 	margin: 50px;
+	text-align: justify;
+	
+}
+
+.contenedor-data-c p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgba(0, 0, 0, 0.795);
+	margin: 50px;
+	text-align: justify;
+	margin-left: 638px;
+    padding-top: 104px;
+    margin-right: 0px;
 }
 
 .Data ol
@@ -231,6 +249,8 @@ body
 	float: left;
 	position: relative;
 	top: 50px;
+	width: 600px;
+	height: 400px;
 }
 
 
