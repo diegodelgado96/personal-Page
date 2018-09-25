@@ -1,0 +1,450 @@
+/*
+*
+{
+	/*padding: 10px 13px 5px 15px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;	
+}*/
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+header
+{ 	
+	width: auto !important;
+}
+body
+{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+.titulo
+{
+	line-height: 55px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 45px !important;
+	padding-top: 3px;
+	
+}
+
+.titulo1
+{
+	line-height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 54px !important;
+    padding-top: 250px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.listaDatos li
+{
+	margin: 15px;
+}
+
+#DatosPersonales
+{
+	padding-top: 120px;
+}
+
+.title-a
+{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.title-b
+{
+	font-size: 30px;
+	margin-top: 60px;
+	margin: 34px;
+}
+
+.titulo span
+{
+	text-decoration: underline;
+}
+
+.Datos h2
+{
+	font-size: 35px;
+	font-family: 'Notable', sans-serif;
+}
+
+.Datos
+{
+	color: #1f313c;
+	margin-bottom: 60px !important;
+}
+
+.portada
+{
+	color: white;	
+	height: 600px;
+}
+
+.portada button
+{
+	margin-bottom: 70px;
+}
+
+.menu
+{
+	font-size: 24px;
+    display: inline-block;
+    right: -250px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.letrahome:hover
+{
+	color: #2b2ee6;
+}
+
+.menu li
+{
+	font-size: 18px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.menu li:before
+{
+	content: '°';
+	font-size: 20px;
+	line-height: 20px; 
+	color: white;
+}
+
+.menu a 
+{
+	text-decoration: none;
+	font-size: 25px;
+    font-weight: 600;
+}
+
+.Logotipo
+{
+	display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.contenedor
+{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+.contenedorPresentacion
+{
+	padding-right: 300px;
+}
+
+.background
+{
+	background-image: url('../images/escolares1.jpg');
+	height: 900;
+	background-size: cover;
+}
+
+.Data 
+{
+	
+	border: 1px solid #1f313c;
+	padding: 15px 55px;
+	margin: 10px 10px 40px 10px;
+	border-radius: 20px;
+}
+
+.Data1 
+{
+	
+	padding: 15px 55px;
+	margin: 0px 10px 40px 10px;
+	background: #eae6e6;
+}
+
+.containerNav
+{
+	background-color: rgba(0, 0, 0, 0.959);
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	float: left;
+}
+
+#Proyectos
+{
+	padding-top: 100px;
+	height: 800px;
+}
+
+.TablaProyectos
+{
+	text-align: center;
+}
+
+.containerNav ul 
+{
+	list-style: none;
+	overflow: hidden; 
+}
+
+.contenedor-data-b p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgba(0, 0, 0, 0.795);
+	margin: 50px;
+}
+
+.Data ol
+{
+	padding: 0;
+}
+
+.Data.altoData
+{
+	height: 380px;
+}
+
+.derecha
+{
+	float: right;
+	position: relative;
+	top: -0px;
+	width: 200px;
+	border-radius: 50px;
+}
+
+.izquierda
+{
+	float: left;
+	position: relative;
+	top: 50px;
+}
+
+
+.contenedor-Data-a
+{
+	padding-left: 20px;
+}
+
+.contenedor-Data-b
+{
+	margin-left: 370px;
+	position: relative;
+	bottom: 70px;
+	padding-top: 60px;
+}
+
+.header
+{
+	margin: 0px;
+}
+
+.button
+{
+	border-radius: 12px;
+	background: #fd324e;
+	color: white;
+	border: none;
+	padding: 7px 12px;
+	font-size: 18px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.footer
+{
+	background: #eae6e6	;
+	padding: 50px 10px;
+}
+
+.contacto
+{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;	
+	align-items: center;
+}
+
+.contacto img
+{
+	display: block;
+}
+
+.contacto strong
+{
+	display: block;
+}
+
+.contacto a
+{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario
+{
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.col1, .col2
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.col1
+{
+	margin-right: 15px;
+}
+
+.intereses label
+{
+	font-size: 12px; 	
+}
+
+.formulario label, .sexo ,.intereses
+{
+	margin-bottom: 10px;
+}
+
+.sexo
+{
+	margin-top: 20px;
+}
+
+.col2
+{
+	align-items: flex-start;
+}
+
+.col2 .button
+{
+	margin-top: 15px;
+}
+
+table
+{
+	width: 100%;
+}
+
+th
+{
+	background: #273b47;
+	color: white;
+}
+
+th
+{
+	padding: 10px 20px;
+	text-align: left;
+}
+
+table, td , th
+{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+
+}
+
+td
+{
+	padding: 15px;
+}
+
+input , textarea
+{
+	outline: 0;
+}
+
+input:focus, textarea:focus
+{
+	background: lightgray;
+}
+
+.tabla
+{
+	margin:50px;
+}
+
+.titulo a
+{
+	font-family: 'Kurale', serif !important;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.titulo
+{
+	margin: 0;
+}
+
+.letrahome
+{
+	color:rgb(250, 250, 250);
+}
+
+.portada1 
+{	
+	height: 80px;
+}
+
+.tituloVideo p
+{
+	    margin: 20px 130px;
+	    font-weight: 800;
+	    font-size: 30px;
+	    line-height: 50px;
+}
+
+.video
+{
+	margin-left: 140px;
+    margin-bottom: 50px; 
+}
+
+.imagenesPie img
+{
+	width: 150px;
+	margin-left: 150px;
+	float: left;
+}
+
+.tat
+{
+	overflow: hidden;
+	width: 100%
+
+}
+
+.img2
+{
+	margin-left: 800px;
+    margin-top: 20px;
+}
