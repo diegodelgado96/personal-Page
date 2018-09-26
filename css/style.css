@@ -112,7 +112,7 @@ body
 }
 .contenedorPresentacion
 {
-	padding-right: 300px;
+	margin-right: 300px;
 }
 
 .background
@@ -341,26 +341,83 @@ td
     margin-left: 250px;
 }
 
-.animated
-{
+
+@media (min-width: 750px){
+	.navbar .navbar-collapse {
+		margin-bottom: 0;
+		padding-bottom:0;
+		margin-left:160px;
+		margin-top: -20px;
+		width:160px;
+		background-color: #000;
 	
-element.style {
-}
-.animated {
+	}
+	.nav li {
+		height: 100%;
+		line-height: 100%;
+		margin-bottom: 0;
+		padding-bottom:0;
+	}
 	
-    -webkit-animation-duration: .5s;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-duration: .5s;
-    -moz-animation-timing-function: ease;
-    -moz-animation-fill-mode: both;
-    -o-animation-duration: .5s;
-    -o-animation-timing-function: ease;
-    -o-animation-fill-mode: both;
-    -ms-animation-duration: .5s;
-    -ms-animation-timing-function: ease;
-    -ms-animation-fill-mode: both;
-    animation-duration: .5s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
+	.nav>li>a {
+		display: table-cell;
+		height: 100%;
+		line-height: 100%;
+		vertical-align: middle;
+		color: #fff;
+		font-weight: 0;
+		font-size: 12px;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+		
+	}
+	
+	.nav>li>a:hover {
+		color: #0044ff !important;
+		background: none;
+	}
+	
+	.navbar-nav {
+		float: right;
+		margin-bottom: 0;
+		padding-bottom:0;	
+	}
+	
+	.navbar .navbar-nav > .active > a {
+		color: #0044ff !important;
+	}
+	.navbar .navbar-nav > .active > a {
+		padding-bottom: 15px;
+	}
+	
+	h1 a.navbar-brand {
+		font-size: 25px;
+		color: #fff;
+		font-weight: 400;
+		text-shadow: none;
+		margin-left: 40px;
+	}
+	
+	.navbar-brand {
+		padding: 0;
+		display: table-cell;
+		vertical-align: middle;
+		line-height: 90px;
+	}
+	
+	.navbar-brand img {
+		vertical-align: middle;
+	}
+	
+	.navbar-toggle {
+		padding: 0;
+		margin: 0;
+		width: 80px;
+	}
+	
+	.navbar-collapse.in {
+		margin-top: -5px !important;
+	  margin-right: 0px;
+	  margin-left: 160px;
+	}
 }
